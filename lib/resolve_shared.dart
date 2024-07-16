@@ -1,0 +1,21 @@
+library resolve_shared;
+
+export 'package:get/get.dart';
+export 'package:dartz/dartz.dart' hide Order;
+export 'package:cloud_firestore/cloud_firestore.dart';
+export 'package:firebase_auth/firebase_auth.dart';
+export 'package:firebase_core/firebase_core.dart';
+export 'package:flutter_screenutil/flutter_screenutil.dart';
+export 'package:freezed_annotation/freezed_annotation.dart';
+export 'package:google_fonts/google_fonts.dart';
+export 'package:json_annotation/json_annotation.dart';
+export 'package:cached_network_image/cached_network_image.dart';
+export 'package:jiffy/jiffy.dart' hide Unit;
+export 'package:flutter_native_splash/flutter_native_splash.dart';
+export 'domain/domain.dart';
+export 'infrastructure/infrastructure.dart';
+export 'package:cloud_functions/cloud_functions.dart';
+export 'presentation/presentation.dart';
+export 'package:animations/animations.dart';
+export 'package:firebase_ui_firestore/firebase_ui_firestore.dart';
+export 'package:image_picker/image_picker.dart';

@@ -1,0 +1,47 @@
+name: resolve_shared
+description: Shared package for Resolve360.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  animations: ^2.0.11
+  cached_network_image: ^3.3.1
+  cloud_firestore: ^5.0.1
+  cupertino_icons: ^1.0.8
+  dartz: ^0.10.0-nullsafety.2
+  firebase_auth: ^5.1.0
+  firebase_core: ^3.1.0
+  firebase_storage: ^12.0.1
+  flutter:
+    sdk: flutter
+  flutter_screenutil: 5.9.0
+  flutter_spinkit: null
+  freezed_annotation: null
+  cloud_functions: ^5.0.1
+  get: ^4.6.6
+  flutter_native_splash: 2.2.16
+  google_fonts: 6.2.1
+  image_picker: ^0.8.6
+  jiffy: ^6.3.1
+  firebase_ui_firestore: ^1.6.4
+  json_annotation: null
+  json_serializable: null
+  uuid: null
+
+dev_dependencies:
+  build_runner:
+  freezed:
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/Avenir.otf
+          weight: 400
